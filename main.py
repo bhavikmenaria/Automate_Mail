@@ -3,8 +3,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
-from_addr='yashmenariabhavik@gmail.com'
-to_addr=['menariabhavik@gmail.com']
+from_addr=''
+to_addr=['']
 msg=MIMEMultipart()
 msg['From']=from_addr
 msg['To']=" ,".join(to_addr)
@@ -14,8 +14,8 @@ body='welcome to this universe'
 
 msg.attach(MIMEText(body,'plain'))
 
-email='2023pcecsbhavik037@poornima.org'
-password='yashmen@6'
+email=''
+password=''
 
 mail=smtplib.SMTP('smtp.gmail.com',587)
 mail.ehlo()
