@@ -2,8 +2,8 @@ import imaplib
 import email
 
 imap_server ="imap.gmail.com"
-email_address='2023pcecsbhavik037@poornima.org'
-password='yashmen@6'
+email_address=''
+password=''
 
 
 imap= imaplib.IMAP4_SSL(imap_server)
